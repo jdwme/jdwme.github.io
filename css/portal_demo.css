@@ -1,0 +1,184 @@
+/*App Folders Styling*/
+.app-folders-container {
+    width:100%;
+    margin:0 auto
+}
+
+/* jQuery App Folders CSS - this is probably vital. Make additions as you please. */
+.jaf-container {
+    position:relative;
+    padding:0;
+    width:100%x;
+    
+}
+
+.jaf-row {
+    zoom:1;
+    border-width:thin;
+    overflow:hidden
+}
+
+.folderContent {
+	position:relative;
+    background-image:url(../images/folder_background.jpg);
+    width:770px;
+	
+}
+
+.folderContent .close {
+	position: absolute;
+	color: #fff;
+	font-weight:bold;
+	font-size:xx-large;
+	left: 739px;
+	top: -2px;
+	text-decoration:none;
+}
+
+/*icon and caption sytles*/
+.item {
+    width:150px;
+    height:170px;
+    margin:0 5px 5px 0;
+/* required to hide the image after resized */
+    overflow:hidden;
+/* for child absolute position */
+    position:relative;
+/* display div in line */
+    float:left
+}
+
+.item .caption {
+    width:150px;
+    height:40px;
+    background:#000;
+    color:#fff;
+    font-weight:700;
+/* fix it at the bottom */
+    position:absolute;
+    left:0;
+	bottom:0;
+/* hide it by default 
+    display:none;
+/* opacity setting */
+    filter:alpha(opacity=70);
+/* ie  */
+    -moz-opacity:.7;
+/* old mozilla browser like netscape  */
+    -khtml-opacity:.7;
+/* for really really old safari */
+    opacity:.7
+/* css standard, currently it works in most modern browsers like firefox,  */
+}
+
+
+
+.item .caption p {
+    padding:5px;
+    margin:0;
+    font-size:12px;
+    text-align:center
+}
+
+.item .caption .table {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align:middle;
+		
+}
+
+.table {
+    text-align:center;
+    display:table-cell;
+    vertical-align:middle;
+    height:45px;
+    width:150px;
+    
+}
+
+.table_rt {
+    text-align:center;
+    display:table-cell;
+    vertical-align:middle;
+    height:150px;
+    width:270px;
+    padding:6px
+}
+
+.table_rt .p {
+    padding:5px;
+    margin:0;
+    text-align:center;
+    color:#ed1c24;
+    font-size:36px
+}
+
+.blue {
+    background-color:#3b73b0;
+    color:#FFF
+}
+
+.blue_title {
+    background-color:#3b73b0;
+    color:#FFF;
+    text-indent:15px;
+    width:770px;
+	height:36px;
+	margin-top:0px;
+    line-height: 36px
+}
+
+.green {
+    text-color:#3195A9;
+    background-color:#3195a9;
+    color:#FFF
+}
+
+.green_title {
+    background-color:#3195a9;
+    color:#FFF;
+    text-indent:15px;
+    width:770px;
+	height:36px;
+	margin-top:0px;
+    line-height: 36px
+}
+
+.red {
+    background-color:#ed1c24
+}
+
+.red_title {
+    background-color:#ed1c24;
+    color:#FFF;
+    text-indent:15px;
+    width:770px;
+	height:36px;
+	margin-top:0px;
+    line-height: 36px
+}
+
+.purple {
+    background-color:#7f3483
+}
+
+.purple_title {
+    background-color:#7f3483;
+    color:#FFF;
+    text-indent:15px;
+    width:770px;
+	height:36px;
+	margin-top:0px;
+    line-height: 36px
+}
+
+img_portal {
+    border:0;
+/* allow javascript moves the img position*/
+    position:absolute
+}
+
+.clear {
+    clear:both
+}
